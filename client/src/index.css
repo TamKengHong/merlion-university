@@ -1,0 +1,86 @@
+:root {
+  --accent: #2b6cb0;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #222;
+  margin: 0; /* ensure full width */
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 200;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(18,38,63,0.06);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 20px;
+  background: linear-gradient(90deg, #ffffff, #f8fbff);
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 20px;
+}
+
+.navlinks a {
+  margin-left: 12px;
+  text-decoration: none;
+  color: #333;
+}
+
+.form-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.input, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.btn {
+  background: var(--accent);
+  color: white;
+  padding: 9px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  padding: 14px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #eee;
+  margin-bottom: 12px;
+}
+
+.staff-list {
+  margin-top: 12px;
+}
+
+.small-muted {
+  color: #666;
+  font-size: 13px;
+}
