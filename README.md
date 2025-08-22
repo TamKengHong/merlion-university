@@ -5,6 +5,9 @@ Setup:
 3. cd server, npm install, node init-db.js, npm start (use 1 terminal for this)
 
 To restart server db:
+
 kill %1
+
 node init-db.js
+
 npm start
